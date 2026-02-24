@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Multimedia Gallery</title>
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #f2f2f2;
+            text-align: center;
+        }
+        .gallery {
+            background-color: white;
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        img {
+            width: 200px;
+            height: 150px;
+            margin: 10px;
+            border: 2px solid black;
+        }
+        video {
+            width: 400px;
+            margin-top: 10px;
+        }
+        audio {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>Multimedia Gallery</h1>
+
+<div class="gallery">
+
+    <h2>Image Gallery</h2>
+    <img src="image1.jpg" alt="Image 1">
+    <img src="image2.jpg" alt="Image 2">
+    <img src="image3.jpg" alt="Image 3">
+
+    <h2>Audio Gallery</h2>
+    <audio controls>
+        <source src="dragon-studio-eerie-wind-478386.mp3" type="audio/mpeg">
+        Your browser does not support audio.
+    </audio>
+
+    <h2>Video Gallery</h2>
+    <video controls>
+        <source src="file_example_MP4_640_3MG.mp4" type="video/mp4">
+        Your browser does not support video.
+    </video>
+
+</div>
+
+</body>
+</html>
